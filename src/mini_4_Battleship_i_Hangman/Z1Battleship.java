@@ -410,7 +410,6 @@ public class Z1Battleship {
 			return false;
 		}
 	}
-
 	// provera je li ostvaren pogodak kompjutera
 	public boolean winComp() {
 		if (winComp == 0) {
