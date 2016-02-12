@@ -473,7 +473,6 @@ public class Z1Battleship {
 		int n = (int) (Math.random() * 100);
 		if (have(n)) {
 			while (have(n)) {
-				System.err.println(n);
 				n = (int) (Math.random() * 100);
 				if (!have(n)) {
 					have[cHave] = n;
