@@ -436,7 +436,6 @@ public class Z1Battleship {
 		java.io.PrintWriter output = new java.io.PrintWriter(file);
 		for (int i = 0; i < charPlayer.length; i++) {
 			for (int j = 0; j < charPlayer[i].length; j++) {
-				System.out.println(charPlayer[i][j]);
 				output.print(charPlayer[i][j] + " ");
 			}
 		}
