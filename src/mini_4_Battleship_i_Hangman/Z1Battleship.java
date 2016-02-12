@@ -78,7 +78,7 @@ public class Z1Battleship {
 	// metoda koja vraca raspored brodova
 	public char[][] listCharakersComp() throws FileNotFoundException {
 		// trazimo fajl sa ovom apsolutnom adresom
-		File file = new File("pokolj na moru.txt");
+		File file = new File("pokolj na moru1.txt");
 		Scanner input2 = new Scanner(file);
 		// string lista svih pozicija brodica koji se nalaze dokumentu
 		ArrayList<String> line = new ArrayList<>();
